@@ -72,13 +72,14 @@ main{
     position: absolute;
 
 }
-img{
-    width:200px;
-    height:200px;
-    float:left;
-    padding: 20px;
-}
 
+#profileImage{
+    width:200px;
+    height:auto;
+    padding-right: 20px;
+    float: left;
+    
+}
 
 
 .container{
@@ -86,6 +87,8 @@ img{
     height: 600px;
     margin:20px 150px 150px 150px;
     padding: 20px;  
+    min-height: 300px;
+    height: auto;
 }
 
 p{
@@ -153,104 +156,121 @@ input[type=submit]:hover{background-color:red;}
 }
 
 
+.image{
+    width: 96%;
+    height: 100%;
+    padding-left: 0;  
+    padding-right: 0;
+}
+
+
 .imgs1 { 
+    width: 33%;
+    height: auto;
+    padding-left:0;
+    padding-right: 0;
     position: relative;
-    width:250px;
-    height:200px;
     display: inline-block;
     float: left;
-    padding:20px;
+    padding-bottom: 40px;
+  
+}
+
+.imgs2{
+    width: 33%;
+    height: auto;
     padding-left:0;
+    padding-right: 0;
+    position: relative;
+    display: inline-block;
+    float: left;
     padding-bottom: 40px;
     
 }
 
-.imgs2{
-    position: relative;
-    width:250px;
-    height:200px;
-    display: inline-block;
-    float: left;
-    padding:20px;
-    padding-left:0;
-    padding-bottom: 40px;
-}
-
 .imgs3{
+    width: 33%;
+    height: auto;
+    padding-left:0;
+    padding-right: 0;
     position: relative;
-    width:250px;
-    height:200px;
     display: inline-block;
     float: left;
-    padding:20px;
-    padding-left:0;
     padding-bottom: 40px;
+    
 }
 
 
 .imgs4{
+    width: 33%;
+    height: auto;
+    padding-left:0;
+    padding-right: 0;
     position: relative;
-    width:250px;
-    height:200px;
     display: inline-block;
     float: left;
-    padding:20px;
-    padding-left:0;
     padding-bottom: 40px;
-
 }
 
-
 .text-box1{
+
+    text-align: center;
+    bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 96%;
+    right:0;
+    left:0;
     position: absolute;
     background-color: green;
     color: white;
-    padding-left: 58px;
-    padding-right: 58px;
-    bottom: 20px;
-    right: 50px;
-    
+ 
+   
 }
 
 .text-box2{
+    
+    text-align: center;
+    bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 96%;
+    right:0;
+    left:0;
     position: absolute;
     background-color: green;
     color: white;
-    padding-left: 62px;
-    padding-right: 62px;
-    bottom: 20px;
-    right: 50px;
+   
 }
 
 .text-box3{
+    
+    text-align: center;
+    bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 96%;
+    right:0;
+    left:0;
     position: absolute;
     background-color: green;
     color: white;
-    padding-left: 62px;
-    padding-right: 62px;
-    bottom: 20px;
-    right: 52px;
+   
 }
 
 .text-box4{
+    
+    text-align: center;
+    bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 96%;
+    right:0;
+    left:0;
     position: absolute;
     background-color: green;
     color: white;
-    padding-left: 72px;
-    padding-right: 72px;
-    bottom: 20px;
-    right: 50px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -272,113 +292,51 @@ input[type=submit]:hover{background-color:red;}
     header nav ul{
         margin-right: 40px;
     }
-
-    main{
-        height: 100%;
-        height: auto;
-    }
     
     .container{
         margin:40px;
-        height: auto;
-        
     }
+
     #profileImage{
         width:200px;
         height:200px;
         padding-right: 20px;
     }
-    img{
-        width: 96%;
-        height: 100%;
-        padding-left: 0;  
-        padding-right: 0;
-    }
-
 
     .imgs1 { 
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-      
+        width: 48%; 
     }
    
     .imgs2{
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-        
+        width: 48%;    
     }
 
     .imgs3{
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-       
-        
+        width: 48%;    
     }
-    
     
     .imgs4{
         width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-        
-       
-    
     }
     
     .text-box1{
-    
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-       
-        
-       
+        bottom: 50px;
+        width: 96%;  
     }
 
     .text-box2{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
+        bottom: 50px;
         width: 96%;
-        right:0;
-        left:0;
-       
-       
-       
     }
     
     .text-box3{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-       
+        bottom: 50px;
+        width: 96%;  
     }
     
     .text-box4{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-        
+        bottom: 50px;
+        width: 96%; 
     }
 
   }
@@ -409,16 +367,9 @@ input[type=submit]:hover{background-color:red;}
     header nav ul{
         margin-right: 40px;
     }
-
-    main{
-        height: 100%;
-        height: auto;
-    }
     
     .container{
         margin:40px;
-        height: auto;
-        
     }
 
     #profileImage{
@@ -427,112 +378,43 @@ input[type=submit]:hover{background-color:red;}
         padding-right: 20px;
     }
 
-    .image{
-        width: 96%;
-        height: 100%;
-        padding-left: 0;  
-        padding-right: 0;
-    }
-
     .imgs1 { 
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-      
+        width: 48%; 
     }
    
     .imgs2{
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-        
+        width: 48%;    
     }
 
     .imgs3{
-        width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-       
-        
+        width: 48%;    
     }
-    
     
     .imgs4{
         width: 48%;
-        height: auto;
-        padding-left:0;
-        padding-right: 0;
-        
-       
-    
     }
     
     .text-box1{
-    
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-       
-        
-       
+        bottom: 50px;
+        width: 96%;  
     }
 
     .text-box2{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
+        bottom: 50px;
         width: 96%;
-        right:0;
-        left:0;
-       
-       
-       
     }
     
     .text-box3{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-       
+        bottom: 50px;
+        width: 96%;  
     }
     
     .text-box4{
-        text-align: center;
-        bottom: 70px;
-        padding-left: 0;
-        padding-right: 0;
-        width: 96%;
-        right:0;
-        left:0;
-        
+        bottom: 50px;
+        width: 96%; 
     }
 
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Media Query for 640px */
 @media (max-width: 640px){
@@ -567,7 +449,7 @@ header nav ul{
 }
 
 header nav ul li{
-  padding: 0px 15px;
+  padding: 0px 10px;
   border-right: none; 
 
 }
@@ -612,28 +494,23 @@ h3{
     padding-left: 0;  
     padding-right: 0;
 }
+
 .imgs1 { 
     width:100%;
     height:100%; 
-    float:none;
-    padding-right:0px;
-    padding-left: 0px;
+    float:none;  
 }
 
 .imgs2{
     width:100%;
     height:100%; 
-    float:none;
-    padding-right:0px;
-    padding-left: 0px;  
+    float:none;     
 }
 
 .imgs3{
     width:100%;
     height:100%; 
-    float:none;
-    padding-right:0px;
-    padding-left: 0px;
+    float:none;   
 }
 
 
@@ -641,40 +518,21 @@ h3{
     width:100%;
     height:100%; 
     float:none;
-    padding-right:0px;
-    padding-left: 0px;
 }
 
 .text-box1{
-    text-align: center;
-    bottom: 70px;
-    left:0;
-    right: 0;
     width: 100%
 }
 
 .text-box2{
-   
-    text-align: center;
-    bottom: 70px;
-    left:0;
-    right: 0;
     width: 100%
 }
 
 .text-box3{
-    text-align: center;
-    bottom: 70px;
-    left:0;
-    right: 0;
     width: 100%
 }
 
 .text-box4{
-    text-align: center;
-    bottom: 70px;
-    left:0;
-    right: 0;
     width: 100%
 }
 
