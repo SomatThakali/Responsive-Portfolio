@@ -295,6 +295,8 @@ input[type=submit]:hover{background-color:red;}
     
     .container{
         margin:40px;
+        margin-right: 250px;
+        margin-bottom: 250px;
     }
 
     #profileImage{
@@ -341,14 +343,6 @@ input[type=submit]:hover{background-color:red;}
 
   }
 
-
-
-
-
-
-
-
-
 /* Media Query for 768px */
 
 @media (max-width: 768px){
@@ -370,6 +364,7 @@ input[type=submit]:hover{background-color:red;}
     
     .container{
         margin:40px;
+        margin-bottom: 100px;
     }
 
     #profileImage{
